@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react'
 import { styled, useTheme } from '@mui/material/styles';
 import Box from '@mui/material/Box';
 import Drawer from '@mui/material/Drawer';
@@ -71,7 +71,7 @@ const DrawerHeader = styled('div')(({ theme }) => ({
 
 const Sidebar = () => {
 	const theme = useTheme();
-	const [open, setOpen] = React.useState(false);
+	const [open, setOpen] = useState(true);
 
 	const handleDrawerOpen = () => {
 		setOpen(true);
@@ -124,7 +124,7 @@ const Sidebar = () => {
 					{SidebarData.map((item, index) => {
 						return (
 							<>
-								<SubMenu item={item} key={index} />;
+								<SubMenu item={item} key={index}/>
 							</>
 						)
 					})}
@@ -134,9 +134,6 @@ const Sidebar = () => {
 				<Main open={open}>
 					<DrawerHeader />
 				</Main>
-				<Typography paragraph>
-					vxklfbg
-				</Typography>
 			</Box>
 
 		</>
