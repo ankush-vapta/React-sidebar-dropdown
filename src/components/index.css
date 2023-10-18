@@ -9,12 +9,6 @@
     height: 60px;
     text-decoration: none;
     font-size: 18px;
-
-    &:hover {
-        background: #99abe2;
-        border-left: 4px solid green;
-        cursor: pointer;
-    }
 }
 
 span {

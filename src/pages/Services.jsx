@@ -3,7 +3,7 @@ import React from "react";
 export const Services = () => {
     return (
         <div className="services">
-            <h1>GeeksforGeeks Services</h1>
+            <h1>  Services</h1>
         </div>
     );
 };
@@ -11,7 +11,7 @@ export const Services = () => {
 export const ServicesOne = () => {
     return (
         <div className="services">
-            <h1>GeeksforGeeks Service1</h1>
+            <h1>  Service1</h1>
         </div>
     );
 };
@@ -19,7 +19,7 @@ export const ServicesOne = () => {
 export const ServicesTwo = () => {
     return (
         <div className="services">
-            <h1>GeeksforGeeks Service2</h1>
+            <h1>  Service2</h1>
         </div>
     );
 };
@@ -27,7 +27,7 @@ export const ServicesTwo = () => {
 export const ServicesThree = () => {
     return (
         <div className="services">
-            <h1>GeeksforGeeks Service3</h1>
+            <h1>  Service3</h1>
         </div>
     );
 };

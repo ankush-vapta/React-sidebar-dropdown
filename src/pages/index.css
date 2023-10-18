@@ -1,0 +1,15 @@
+
+input {
+    height: 40px;
+    margin: 10px;
+    font-size: 20px;
+}
+button{
+    height: 40px;
+    border: 3px wheat;
+    width: 140px;
+    background-color: blanchedalmond;
+    color: rgb(79, 112, 112);
+    font-size: 20px;
+    font-weight: 700;
+}
